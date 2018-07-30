@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>My Shopping Center</title>
+    <link rel="stylesheet" type="text/css" href="shoppingCart.css">
+    <script src="shoppingCart.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="logo">
+            <img src="k.jpg" width="80px" />
+        </div>
+        <div class "upperpart" align="center">
+            <h1>Shopping Center</h1>
+            <div id="test" style="margin-right: 524px">
+                <input type="text" placeholder="Search.." name="search" id="input">
+                <button onclick="search()">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="table" style="margin-top: 20px;padding-right: 362px;">
+        <table id="Table1" align="center">
+        </table>
+    </div>
+    <br>
+    <div id="footer" style="width: 100%;height: 40%;margin-left: 385px;">
+        <div class="downpart">
+            <input type="reset" value="Reset" onClick="deleteRow()"> &emsp;&emsp;
+            <button id="addbutton" onclick="addTable()">Add</button>
+        </div>
+    </div>
+    <div class="split right">
+        <div class="cartname">
+            <div id="cartname1" style="float: right">
+                <h2>Your Cart</h2>
+            </div>
+            <div id "cartlogo">
+                <i class="fas fa-shopping-cart" style="
+                margin-top: 25px;
+                margin-left: 110px;"></i>
+            </div>
+
+        </div>
+        <hr>
+
+        <div class="cartTable" align="center">
+            <table id="cartTable"></table>
+            <button  id="checkoutbtn" onclick="openWin()">CheckOut</button>
+        </div>
+    </div>
+</body>
+
+</html>

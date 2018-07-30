@@ -1,0 +1,74 @@
+.split {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    
+}
+
+/* Control the right side */
+
+.right {
+    right: 0;
+    background-color: #cccccc;
+}
+
+.footer{
+    width: 100%;
+    
+}
+
+/* body  {
+    background-image: url("bg.jpg");
+    /* background-color: #cccccc; */} */
+
+.button{
+
+    margin-top:585px;
+    padding-left: 90px;
+}
+Table1
+, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+hr { 
+   width: 100%;
+} 
+number{
+    width: 20px;
+}
+
+.logo{
+    float: left;
+    
+}
+.upperpart{
+
+    
+    float:right;
+}
+
+h1{
+    margin-right: 470px;
+}
+h2{
+    padding-right: 150px;
+}
+#upperpart.test{
+    margin-right: 524px;
+    float: left;
+}
+searchicon{
+    float: right;
+}
+#checkoutbtn{
+    margin-top: 10px;
+}
+
+#checkoutbtn:hover {
+    background-color:lightsalmon;
+  }
+
