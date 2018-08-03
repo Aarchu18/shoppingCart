@@ -27,11 +27,15 @@
     <div class="table" style="margin-top: 20px;padding-right: 362px;">
         <table id="Table1" align="center">
         </table>
+
+    </div>
+    <div>
+        <table id="checkoutTable" align="center" style="margin-top: 20px;padding-right: 362px;"></table>
     </div>
     <br>
     <div id="footer" style="width: 100%;height: 40%;margin-left: 385px;">
         <div class="downpart">
-            <input type="reset" value="Reset" onClick="deleteRow()"> &emsp;&emsp;
+            <input  id="resetbtn"type="reset" value="Reset" onClick="deleteRow()"> &emsp;&emsp;
             <button id="addbutton" onclick="addTable()">Add</button>
         </div>
     </div>
@@ -51,7 +55,7 @@
 
         <div class="cartTable" align="center">
             <table id="cartTable"></table>
-            <button  id="checkoutbtn" onclick="openWin()">CheckOut</button>
+            <button id="checkoutbtn" onclick="openWin()">CheckOut</button>
         </div>
     </div>
 </body>
